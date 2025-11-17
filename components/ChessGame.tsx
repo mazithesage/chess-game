@@ -1062,7 +1062,7 @@ export default function ChessGame() {
       </button>
 
       <h1 className="text-2xl mb-6 text-[#F0D9B5] font-bold">
-        Chess v1 • You (White) vs AI (Black)
+        Chess • You (White) vs AI (Black)
       </h1>
 
       <div className="mb-4 px-4 py-2 bg-[#1a1715] rounded text-[#F0D9B5] border-2 border-[#8B6914]">

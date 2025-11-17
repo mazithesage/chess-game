@@ -1,4 +1,4 @@
-# Chess Game v1
+# Chess Game
 
 A fully-featured chess game built with Next.js 15, TypeScript, and Tailwind CSS. Play as White against a simple AI opponent (Black) with complete chess rules implementation.
 

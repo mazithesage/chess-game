@@ -41,7 +41,7 @@ export default function WelcomePage() {
         {/* Title */}
         <div className="mb-8">
           <h1 className="text-7xl font-bold mb-4 text-[#F0D9B5]">
-            Chess v1
+            Chess
           </h1>
           <div className="flex items-center justify-center gap-2 text-xl text-[#B58863] mb-2">
             <span>You (White) vs AI (Black)</span>
