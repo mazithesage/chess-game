@@ -98,7 +98,6 @@ export default function WelcomePage() {
 
       {/* Footer */}
       <div className="absolute bottom-6 text-[#8B6914] text-sm">
-        Built with Next.js • TypeScript • Tailwind CSS • by{' '}
         <a
           href="https://mazithesage.vercel.app"
           target="_blank"

@@ -1259,7 +1259,6 @@ export default function ChessGame() {
 
       {/* Footer */}
       <div className="mt-6 text-[#8B6914] text-sm">
-        by{' '}
         <a
           href="https://mazithesage.vercel.app"
           target="_blank"
