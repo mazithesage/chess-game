@@ -1257,6 +1257,19 @@ export default function ChessGame() {
         </div>
       )}
 
+      {/* Footer */}
+      <div className="mt-6 text-[#8B6914] text-sm">
+        by{' '}
+        <a
+          href="https://mazithesage.vercel.app"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-[#B58863] hover:text-[#F0D9B5] underline transition-colors"
+        >
+          mazithesage
+        </a>
+      </div>
+
     </div>
   );
 }
