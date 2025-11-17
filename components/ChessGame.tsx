@@ -1070,7 +1070,7 @@ export default function ChessGame() {
           <span className="text-blue-400 font-bold">Draw! {drawReason}</span>
         ) : isCheckmate ? (
           <span className="text-red-400 font-bold">
-            {drawReason === 'White resigned' ? 'Black wins! White resigned' : `Checkmate! ${currentTurn === 'white' ? 'Black' : 'White'} wins!`}
+            {drawReason === 'White resigned' ? 'Black wins! White resigned' : `Checkmate! ${blackInCheck ? 'White' : 'Black'} wins!`}
           </span>
         ) : whiteInCheck ? (
           <span className="text-yellow-400 font-bold">⚠️ CHECK! You must get your King to safety!</span>
